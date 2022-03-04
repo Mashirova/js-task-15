@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h1 class="banner-title">Our Products</h1>
+            <button id="button-one"> 
+               <a href="#">Card-1</a>
+            </button>
+            <div class="cards"></div>
+        </div>
+    </div>
+
+    <template id="card">
+        <div id="card">
+            <img src="./img/photo-1640622841908-3a691b7b7ac9.jpeg" alt="">
+            <div id="title">Ноутбук Sony Vaio
+                <span id="price">19950сом</span>
+            </div>
+            <p id="desc">Процессор: E-350 <br>  
+                Частота процессора: 1600 МГц <br>
+                Объем жесткого диска: 320 ГБ 
+                Диагональ экрана: 11.6,
+                Видеокарта: ATI Radeon HD 6310M
+                Вес: 1.46 кг 
+                Оптический привод: DVD нет <br>
+                Bluetooth: есть 
+                Wi-Fi: есть",
+            </p>
+        </div>
+
+        <div id="card">
+            <img src="./img/photo-1588058365548-9efe5acb8077.jpeg" alt="">
+            <div id="title">Телефон Sony Vaio VPC-YB2L1R <br> AMD Fusion E-350
+                <span id="price">28700сом</span>
+            </div>
+            <p id="desc">Экран: 6.55 (2400x1080) 90 Гц,
+                Оперативная память: 8 ГБ, <br>
+                Память: 128 ГБ, слот для карты памяти, 3 камеры: 64 МП, 8 МП, 5 МП,
+                Аккумулятор: 4250 мА·ч,
+                Процессор: Qualcomm Snapdragon 780G,
+                Iphone 11, Wi-Fi, Bluetooth 5.1
+            </p>
+            </div>
+    </template>
+
+    <script src="./js/js.js"></script>
+    <script src="./js/db.json"></script>
+</body>
+</html>
